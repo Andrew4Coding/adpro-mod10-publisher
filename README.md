@@ -28,5 +28,5 @@ The URL `“amqp://guest:guest@localhost:5672”` is the connection string used 
 ### Console Logs in Publishing Events
 ![alt text](image-1.png)
 
-### Monitoring Chart
-![alt text](image-2.png)
+### Monitoring Chart (Before Uncomment Thread Sleep)
+![alt text](image-3.png)
