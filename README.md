@@ -30,3 +30,6 @@ The URL `“amqp://guest:guest@localhost:5672”` is the connection string used 
 
 ### Monitoring Chart (Before Uncomment Thread Sleep)
 ![alt text](image-3.png)
+
+### Monitoring Chart (After Uncomment Thread Sleep)
+![alt text](image-4.png)
