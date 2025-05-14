@@ -33,3 +33,10 @@ The URL `“amqp://guest:guest@localhost:5672”` is the connection string used 
 
 ### Monitoring Chart (After Uncomment Thread Sleep)
 ![alt text](image-4.png)
+
+### Monitoring Chart (After Open 3 Terminals of Subscriber)
+![alt text](image-5.png)
+
+
+### Why 3 Subscribers are a lot better than 1?
+Having 3 subscribers is better than having just 1 because it allows for parallel processing of messages. This means that multiple messages can be consumed and processed simultaneously, leading to improved performance and reduced latency. 
