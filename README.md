@@ -20,3 +20,7 @@ Since there are 5 messages, the total data sent in one run is:
 
 ### b. The url of: `“amqp://guest:guest@localhost:5672”` is the same as in the subscriber program, what does it mean?
 The URL `“amqp://guest:guest@localhost:5672”` is the connection string used by both the publisher and subscriber programs to connect to the RabbitMQ message broker.
+
+
+### Proof of Running RabbitMQ
+![alt text](image.png)
