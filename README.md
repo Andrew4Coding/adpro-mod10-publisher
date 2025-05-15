@@ -28,15 +28,9 @@ The URL `“amqp://guest:guest@localhost:5672”` is the connection string used 
 ### Console Logs in Publishing Events
 ![alt text](image-1.png)
 
+Based on the image, the publisher program successfully published 5 messages to the RabbitMQ message broker. The messages were sent to the "user.created" exchange, and the program confirmed that each message was published successfully.
+
 ### Monitoring Chart (Before Uncomment Thread Sleep)
 ![alt text](image-3.png)
 
-### Monitoring Chart (After Uncomment Thread Sleep)
-![alt text](image-4.png)
-
-### Monitoring Chart (After Open 3 Terminals of Subscriber)
-![alt text](image-5.png)
-
-
-### Why 3 Subscribers are a lot better than 1?
-Having 3 subscribers is better than having just 1 because it allows for parallel processing of messages. This means that multiple messages can be consumed and processed simultaneously, leading to improved performance and reduced latency. 
+Based on the image, the monitoring shows the number of messages published to the RabbitMQ message broker. The chart indicates that the publisher program is sending messages at a consistent rate, with no significant spikes or drops in the number of messages published over time.
